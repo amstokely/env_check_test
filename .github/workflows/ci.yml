@@ -7,7 +7,7 @@ on:
 # In the calling repository's .github/workflows/calling-workflow.yml
 jobs:
   call-reusable-workflow:
-    uses: amstokely/env_check/.github/workflows/check_env.yml@main
+    uses: amstokely/env_check/.github/workflows/check_env.yml@master
     with:
       other_repo: "owner/env_check_test"
       file_path: "log.txt"
