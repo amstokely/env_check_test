@@ -7,6 +7,6 @@ on:
 # In the calling repository's .github/workflows/calling-workflow.yml
 jobs:
   call-reusable-workflow:
-    uses: amstokely/env_check/.github/workflows/env_check.yml@master
+    uses: amstokely/env_check/.github/workflows/check_env.yml@master
     with:
       file_path: log.txt
