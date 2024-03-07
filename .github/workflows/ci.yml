@@ -1,0 +1,9 @@
+name: test
+
+on:
+  push:
+    branches:
+      - master
+jobs:
+  call-shared-workflow:
+    uses: amstokely/env_check/.github/workflows/check_env.yml@master
